@@ -5,6 +5,7 @@
 
 body{
 	background-color: #252525;
+	margin-bottom: 1000;
 
 }
 
@@ -29,6 +30,7 @@ body{
 /*all the text*/
 .container{
 
+	padding-left: 20px;
 	color: #fff;
 	font-family: Tahoma, Geneva, sans-serif;
 }
@@ -39,19 +41,12 @@ body{
 	float:left;
 }
 
-.text-block{
+#text-block{
 	padding: 20px;
-
-}
-
-.text-block h3{
-
-	padding-top: 20px;
-}
-
-.text-block p{
-
-	padding-top: 30px;
+	line-height: 2.0;
 }
 
 /*steps*/
+.list{
+	float: left;
+}
